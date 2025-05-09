@@ -215,8 +215,7 @@ if v := os.getenv("ALLOWED_HOSTS"):
 else:
     # Otherwise, populate it with the domain from SITE_ROOT
     domain, _ = split_domain_port(_site_root_parts.netloc)
-    ALLOWED_HOSTS = [domain]
-
+    ALLOWED_HOSTS = ['checks-ii29.onrender.com', 'localhost']
 STATICFILES_DIRS = [BASE_DIR / "static"]
 STATIC_ROOT = BASE_DIR / "static-collected"
 STATICFILES_FINDERS = (
