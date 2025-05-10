@@ -1,2 +1,2 @@
 DEBUG = False
-ALLOWED_HOSTS = ["https://checks-ii29.onrender.com", "localhost"]
+ALLOWED_HOSTS = ["checks-ii29.onrender.com", "localhost", "127.0.0.1"]
